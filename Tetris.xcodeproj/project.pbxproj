@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3912710F286D9C150082BC74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3912710E286D9C150082BC74 /* main.cpp */; };
+		39127118286D9DF40082BC74 /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39127116286D9DF40082BC74 /* MainMenu.cpp */; };
+		3912711B286D9FB10082BC74 /* Gametable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39127119286D9FB10082BC74 /* Gametable.cpp */; };
+		3912711E286DA6F20082BC74 /* Block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3912711C286DA6F20082BC74 /* Block.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		3912710B286D9C150082BC74 /* Tetris */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tetris; sourceTree = BUILT_PRODUCTS_DIR; };
 		3912710E286D9C150082BC74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		39127116286D9DF40082BC74 /* MainMenu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
+		39127117286D9DF40082BC74 /* MainMenu.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MainMenu.hpp; sourceTree = "<group>"; };
+		39127119286D9FB10082BC74 /* Gametable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gametable.cpp; sourceTree = "<group>"; };
+		3912711A286D9FB10082BC74 /* Gametable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Gametable.hpp; sourceTree = "<group>"; };
+		3912711C286DA6F20082BC74 /* Block.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Block.cpp; sourceTree = "<group>"; };
+		3912711D286DA6F20082BC74 /* Block.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Block.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				3912710E286D9C150082BC74 /* main.cpp */,
+				39127116286D9DF40082BC74 /* MainMenu.cpp */,
+				39127117286D9DF40082BC74 /* MainMenu.hpp */,
+				39127119286D9FB10082BC74 /* Gametable.cpp */,
+				3912711A286D9FB10082BC74 /* Gametable.hpp */,
+				3912711C286DA6F20082BC74 /* Block.cpp */,
+				3912711D286DA6F20082BC74 /* Block.hpp */,
 			);
 			path = Tetris;
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3912711B286D9FB10082BC74 /* Gametable.cpp in Sources */,
+				3912711E286DA6F20082BC74 /* Block.cpp in Sources */,
 				3912710F286D9C150082BC74 /* main.cpp in Sources */,
+				39127118286D9DF40082BC74 /* MainMenu.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
